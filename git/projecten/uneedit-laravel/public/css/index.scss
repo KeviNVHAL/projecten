@@ -1,0 +1,52 @@
+body {
+    main {
+        #hero {
+            height: 40vh;
+            background-image: url(../img/back.jpg);
+            background-size: cover;
+            background-position: center;
+            color: #fff;
+            display: flex;
+            align-items: center;
+
+            h1 {
+                margin: 0 10vw;
+                font-size: 36px;
+            }
+        }
+
+        #services {
+            background-color: #f9f9f9;
+            display: flex;
+            height: 25vh;
+            align-items: center;
+
+            .service {
+                margin: 0 2vw;
+
+                h3 {
+                    margin: 0;
+                    margin-bottom: 10px;
+                    font-size: 24px;
+                }
+
+                p {
+                    margin: 0;
+                    font-size: 16px;
+                    color: #333;
+                }
+            }
+        }
+
+        #iframe {
+            background-color: #fff;
+            text-align: center;
+
+            #location {
+                margin: 10vh 0;
+                display: flex;
+                flex: auto;
+            }
+        }
+    }
+}

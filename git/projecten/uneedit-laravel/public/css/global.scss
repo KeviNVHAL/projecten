@@ -1,0 +1,22 @@
+body {
+    width: 100vw;
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: whitesmoke;
+    color: #333;
+    overflow-x: hidden;
+
+    main {
+        display: flow-root;
+        min-height: 80vh;
+        box-sizing: border-box;
+
+        .container {
+            width: 80vw;
+            margin: 0 auto;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+    }
+}

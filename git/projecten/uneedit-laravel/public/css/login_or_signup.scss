@@ -1,0 +1,31 @@
+$color_1: #fff;
+$font-family_1: Arial, sans-serif;
+
+body {
+    main {
+        .container {
+            .login-signup {
+                width: 80vw;
+                height: 80vh;
+                text-align: center;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                flex-direction: column;
+
+                button {
+                    margin: 10px;
+                    padding: 2vh 2vw;
+                    font-size: 16px;
+                    border-radius: 5px;
+                    cursor: pointer;
+
+                    &:hover {
+                        background-color: #45a049;
+                        color: $color_1;
+                    }
+                }
+            }
+        }
+    }
+}

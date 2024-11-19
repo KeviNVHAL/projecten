@@ -1,0 +1,85 @@
+$color_1: #fff;
+$font-family_1: Arial, sans-serif;
+
+#main-account {
+    display: flow-root;
+
+    .account-info {
+        width: 80%;
+        margin: 0 auto;
+        text-align: center;
+
+        .info-block {
+            background-color: #f9f9f9;
+            border: 1px solid #ccc;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, .1);
+            margin-bottom: 20px;
+            max-width: 600px;
+            margin: 0 auto;
+
+            p {
+                margin: 10px 0;
+            }
+        }
+    }
+
+    .edit-info {
+        width: 80%;
+        margin: 0 auto;
+        text-align: center;
+        display: none;
+        border: 1px solid #ccc;
+        border-radius: 8px;
+        max-width: 600px;
+
+        .changeForm {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+    }
+
+
+    .buttons {
+        text-align: center;
+        margin-top: 20px;
+        display: flex;
+        justify-content: center;
+
+        button {
+            margin: 0 10px;
+            background-color: #4caf50;
+            color: $color_1;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+
+            &:hover {
+                background-color: #45a049;
+            }
+        }
+    }
+}
+
+
+
+.button-group {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10px;
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+
+    button {
+        border: none;
+        border-radius: 5px;
+        cursor: pointer;
+        color: $color_1;
+
+        &:hover {
+            opacity: .8;
+        }
+    }
+}

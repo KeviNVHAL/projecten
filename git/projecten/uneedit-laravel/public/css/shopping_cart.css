@@ -1,0 +1,137 @@
+main {
+    padding: 20px;
+}
+
+.shopping-cart-container {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin: 10vh auto;
+    max-width: 80vw;
+}
+
+.shopping-cart, .checkout {
+    background-color: white;
+    border-radius: 10px;
+    padding: 20px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+    flex-basis: 48%;
+}
+
+.title {
+    border-bottom: 2px solid #ddd;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.title h2 {
+    font-size: 24px;
+    color: #333;
+}
+
+.product {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 0;
+    border-bottom: 1px solid #ddd;
+}
+
+.product img {
+    width: 5vw;
+    height: auto;
+    border-radius: 5px;
+}
+
+.product p {
+    margin: 5px 0;
+}
+
+.product div:first-child {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+
+.product div:last-child {
+    display: flex;
+    align-items: flex-end;
+    justify-content: flex-end;
+    gap: 10px;
+    width: 400px;
+}
+
+label {
+    font-size: 14px;
+    color: #555;
+}
+
+input[type="number"] {
+    width: 60px;
+    padding: 5px;
+    margin-right: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+
+.button {
+    background-color: #ff6b6b;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.button:hover {
+    background-color: #ff4e4e;
+}
+
+input[type="submit"] {
+    font-size: 14px;
+    cursor: pointer;
+}
+
+.checkout {
+    padding: 20px;
+    border-radius: 10px;
+    height: 200px;
+    flex-basis: 30%;
+}
+
+.summary {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.product-summary,
+.price-summary {
+    display: flex;
+    justify-content: space-between;
+    margin-left: 2vw;
+    width: 70%;
+}
+
+.product p,
+.summary p {
+    margin: 10px 0;
+    font-size: 18px;
+    color: #333;
+}
+
+.cart-empty-text {
+    text-align: center;
+}
+
+@media (max-width: 768px) {
+    .shopping-cart-container {
+        flex-direction: column;
+    }
+
+    .shopping-cart, .checkout {
+        flex-basis: 100%;
+        margin-bottom: 20px;
+    }
+}

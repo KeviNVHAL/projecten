@@ -1,0 +1,41 @@
+body {
+    main {
+        #faq {
+            display: inline-block;
+            width: 50vw;
+            margin: 10vh auto;
+            background-color: #2c3e50;
+            margin-left: 400px;
+            border: solid 3px;
+            border-color: #48d1cc;
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, .1);
+            color: white;
+
+            .question {
+                margin: 2vh 1vw;
+                cursor: pointer;
+            }
+
+            .answer {
+                margin: 1vh 2vw;
+                margin-bottom: 2vw;
+                display: none;
+            }
+
+            .answer.show {
+                display: block;
+            }
+
+            ul {
+                display: inline-block;
+                margin: 0;
+
+                li {
+                    margin: 2vh 1vw;
+                    word-wrap: break-word;
+                }
+            }
+        }
+    }
+}

@@ -1,0 +1,49 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Roboto Mono', monospace;
+    background-color: #2c3e50;
+    color: #ecf0f1;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container {
+    text-align: center;
+}
+
+h1 {
+    font-size: 8rem;
+    color: #ecf0f1;
+    /* White 404 */
+    margin-bottom: 1rem;
+}
+
+p {
+    font-size: 1.25rem;
+    margin-bottom: 2rem;
+}
+
+.link {
+    font-size: 1.8rem;
+    color: #ecf0f1;
+    /* White text for the link */
+    text-decoration: none;
+    border-bottom: 2px solid #ecf0f1;
+    /* Underline style */
+    padding-bottom: 2px;
+    transition: color 0.3s ease, border-bottom-color 0.3s ease;
+}
+
+.link:hover {
+    color: #dcdcdc;
+    /* Darker white hover effect */
+    border-bottom-color: #dcdcdc;
+    /* Change underline color on hover */
+}

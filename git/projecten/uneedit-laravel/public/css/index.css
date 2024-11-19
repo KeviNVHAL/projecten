@@ -1,0 +1,41 @@
+body main #hero {
+  height: 40vh;
+  background-image: url(../img/back.jpg);
+  background-size: cover;
+  background-position: center;
+  color: #fff;
+  display: flex;
+  align-items: center;
+}
+body main #hero h1 {
+  margin: 0 10vw;
+  font-size: 36px;
+}
+body main #services {
+  background-color: #f9f9f9;
+  display: flex;
+  height: 25vh;
+  align-items: center;
+}
+body main #services .service {
+  margin: 0 2vw;
+}
+body main #services .service h3 {
+  margin: 0;
+  margin-bottom: 10px;
+  font-size: 24px;
+}
+body main #services .service p {
+  margin: 0;
+  font-size: 16px;
+  color: #333;
+}
+body main #iframe {
+  background-color: #fff;
+  text-align: center;
+}
+body main #iframe #location {
+  margin: 10vh 0;
+  display: flex;
+  flex: auto;
+}/*# sourceMappingURL=index.css.map */
